@@ -235,7 +235,7 @@ void main() {
           .childFile('Podfile');
       podfileFile.createSync(recursive: true);
       podfileFile.writeAsStringSync("""
-platform :osx, '10.11'
+platform :osx, '10.14'
 # some other line
 """);
 
